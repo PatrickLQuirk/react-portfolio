@@ -1,11 +1,18 @@
 import React from 'react';
 import Navigation from '../Navigation';
 
-function Header() {
+function Header(props) {
+    const {
+        currentTab,
+        setCurrentTab
+    } = props;
     return (
-        <header>
+        <header className="flex-row">
             <h2>Patrick Quirk</h2>
-            <Navigation></Navigation>
+            <Navigation 
+                currentTab={currentTab}
+                setCurrentTab={setCurrentTab}
+            ></Navigation>
         </header>
     )
 };

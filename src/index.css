@@ -1,9 +1,11 @@
 :root {
   --rose-dust: #a2666f;
---neon-blue: #4d6cfa;
---gunmetal: #30343f;
---amber-sae-ece: #ff7f11;
---medium-spring-green: #40f99b;
+  --neon-blue: #4d6cfa;
+  --gunmetal: #30343f;
+  --amber-sae-ece: #ff7f11;
+  --medium-spring-green: #40f99b;
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
 }
 
 body {
@@ -24,3 +26,25 @@ code {
   width: 100px;
 }
 
+li {
+  list-style: none;
+}
+
+.navActive {
+  color: var(--medium-spring-green)
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+}
+
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
