@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   const [currentTab, setCurrentTab] = useState("about");
@@ -20,9 +21,7 @@ function App() {
       )}
 
       {currentTab === "contact" && (
-        <section id="contact">
-          <h1>Contact</h1>
-        </section>
+        <Contact></Contact>
       )}
 
       {currentTab === "resume" && (
