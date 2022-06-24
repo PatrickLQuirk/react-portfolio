@@ -6,6 +6,11 @@ const Contact = () => {
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
 
+    // currently the validation is not perfect
+    // if you have something invalid in one field, then go to a second field,
+    // and then leave that second field, the error message for the first field is no longer present,
+    // even if there is still an error in that field
+
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);

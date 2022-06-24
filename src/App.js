@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
 function App() {
   const [currentTab, setCurrentTab] = useState("about");
@@ -25,9 +26,7 @@ function App() {
       )}
 
       {currentTab === "resume" && (
-        <section id="resume">
-          <h1>Resume</h1>
-        </section>
+        <Resume></Resume>
       )}
     </>
   );
