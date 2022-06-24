@@ -12,6 +12,7 @@ function App() {
         currentTab={currentTab}
         setCurrentTab={setCurrentTab}
       ></Header>
+      
       {currentTab === "about" && (
         <About></About>
       )}
