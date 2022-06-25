@@ -108,3 +108,7 @@ textarea {
 .error-text {
   color: var(--rose-dust);
 }
+
+.project-image {
+  width: 100%;
+}
