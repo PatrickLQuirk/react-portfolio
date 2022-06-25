@@ -48,3 +48,7 @@ li {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
+
+#header-name {
+  margin-left: 20px
+}
