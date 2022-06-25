@@ -13,7 +13,7 @@ function Header(props) {
                 <Grid item xs={12} sm={4} lg={3}>
                     <Typography id="header-name">Patrick Quirk</Typography>
                 </Grid>
-                <Grid item xs={12} sm={8} md={6} lg={4} xl={3}>
+                <Grid item xs={12} sm={8} md={6} lg={4}>
                 <Navigation 
                     currentTab={currentTab}
                     setCurrentTab={setCurrentTab}

@@ -39,8 +39,10 @@ const Contact = () => {
     }
 
     return (
-        <section>
+        <main>
             <h1 data-testid="h1tag">Contact</h1>
+            <p>Currently the following contact form does not have the functionality to actually contact me yet. You can see how the form will work though.</p>
+            <p>In the meantime, you can reach me by email at patrickliamquirk@yahoo.com</p>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -51,7 +53,7 @@ const Contact = () => {
                     <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
                 </div>
                 <div>
-                    <label htmlFor="message">Message:</label>
+                    <label htmlFor="message" id="message-label">Message:</label>
                     <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                 </div>
                 {errorMessage && (
@@ -61,7 +63,7 @@ const Contact = () => {
                 )}
                 <button type="submit" data-testid="button">Submit</button>
             </form>
-        </section>
+        </main>
     )
 }
 
