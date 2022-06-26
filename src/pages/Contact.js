@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
+import { Grid } from '@mui/material';
 
 const Contact = () => {
     const [formState, setFormState] = useState({ name: '', email: '', message: ''});
@@ -44,18 +45,30 @@ const Contact = () => {
             <p>Currently the following contact form does not have the functionality to actually contact me yet. You can see how the form will work though.</p>
             <p>In the meantime, you can reach me by email at patrickliamquirk@yahoo.com</p>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message" id="message-label">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-                </div>
+                <Grid container>
+                    <Grid item xs={4} sm={2}>
+                        <label htmlFor="name">Name:</label>
+                    </Grid>
+                    <Grid item xs={4} sm={2}>
+                        <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    </Grid>
+                </Grid>
+                <Grid container>
+                    <Grid item xs={4} sm={2}>
+                        <label htmlFor="email">Email address:</label>
+                    </Grid>
+                    <Grid item xs={4} sm={2}>
+                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    </Grid>
+                </Grid>
+                <Grid container>
+                    <Grid item xs={4} sm={2}>
+                        <label htmlFor="message" id="message-label">Message:</label>
+                    </Grid>
+                    <Grid item xs={4} sm={2}>
+                        <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    </Grid>
+                </Grid>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
