@@ -10,11 +10,12 @@ const Portfolio = () => {
             githubLink: "https://github.com/PatrickLQuirk/social-network-api",
             imageFileName: "social-network-api.png"
         },
-        // {
-        //     projectName: "eCommerce Back End",
-        //     deployedLink: "",
-        //     githubLink: ""
-        // },
+        {
+            projectName: "eCommerce Back End",
+            deployedLink: "",
+            githubLink: "https://github.com/PatrickLQuirk/e-commerce_back_end",
+            imageFileName: "eCommerce-back-end.png"
+        },
         {
             projectName: "Tech Blog",
             deployedLink: "https://tranquil-meadow-55895.herokuapp.com/",
