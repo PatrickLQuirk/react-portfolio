@@ -1,8 +1,7 @@
 :root {
   --rose-dust: #a2666f;
   --primary-blue: #4d6cfa;
-  --gunmetal: #30343f;
-  --primary-orange: #ff7f11;
+  --primary-orange: #ff7e00;
   --medium-spring-green: #40f99b;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -55,7 +54,9 @@ nav li {
 }
 
 header {
-  background-color: var(--primary-orange);
+  /* background-color: var(--primary-orange); */
+  color: var(--primary-orange);
+  font-size: 24px;
 }
 
 body {

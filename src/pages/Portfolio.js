@@ -5,6 +5,17 @@ import Project from '../components/Project';
 const Portfolio = () => {
     const [projects] = useState([
         {
+            projectName: "Social Network API",
+            deployedLink: "",
+            githubLink: "https://github.com/PatrickLQuirk/social-network-api",
+            imageFileName: "social-network-api.png"
+        },
+        // {
+        //     projectName: "eCommerce Back End",
+        //     deployedLink: "",
+        //     githubLink: ""
+        // },
+        {
             projectName: "Tech Blog",
             deployedLink: "https://tranquil-meadow-55895.herokuapp.com/",
             githubLink: "https://github.com/PatrickLQuirk/tech-blog",
