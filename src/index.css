@@ -113,3 +113,17 @@ textarea {
 .project-image {
   width: 100%;
 }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  color: var(--primary-orange);
+  margin-bottom: 15px;
+}
+
+footer span {
+  font-size: 16px;
+}
