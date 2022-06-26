@@ -28,6 +28,18 @@ const Portfolio = () => {
             githubLink: "https://github.com/kmelter/full-stack-diet-app",
             imageFileName: "full-stack-diet.png"
         },
+        {
+            projectName: "Employee Tracker",
+            deployedLink: "",
+            githubLink: "https://github.com/PatrickLQuirk/employee-tracker",
+            imageFileName: "employee-tracker.png"
+        },
+        {
+            projectName: "Weather Dashboard",
+            deployedLink: "https://patricklquirk.github.io/weather-dashboard/",
+            githubLink: "https://github.com/PatrickLQuirk/weather-dashboard",
+            imageFileName: "weather-dashboard.png"
+        }
     ]);
 
     return (
