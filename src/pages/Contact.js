@@ -43,7 +43,7 @@ const Contact = () => {
         <main>
             <h1 data-testid="h1tag">Contact</h1>
             <p>Currently the following contact form does not have the functionality to actually contact me yet. You can see how the form will work though.</p>
-            <p>In the meantime, you can reach me by email at patrickliamquirk@yahoo.com</p>
+            <p>In the meantime, you can reach me by email at <a class="text-white" href="mailto:patrickliamquirk@yahoo.com">patrickliamquirk@yahoo.com</a></p>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <Grid container>
                     <Grid item xs={4} sm={2}>

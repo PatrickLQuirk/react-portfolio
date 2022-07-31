@@ -127,3 +127,7 @@ footer a {
 footer span {
   font-size: 16px;
 }
+
+.text-white {
+  color: #fff
+}
