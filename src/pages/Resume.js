@@ -5,7 +5,7 @@ function Resume() {
         <main>
             <h1>Resume</h1>
 
-            <h3>Download my <a href="../assets/Resume.pdf" download>resume</a></h3>
+            <h3>View my <a href="https://drive.google.com/file/d/1WsyXrcAFPSko0lauMsn9GBH6qTgUz2iY/view?usp=sharing">resume</a></h3>
 
             <h2>Back-end Proficiencies</h2>
             <ul>
