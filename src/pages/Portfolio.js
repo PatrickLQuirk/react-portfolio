@@ -5,40 +5,52 @@ import Project from '../components/Project';
 const Portfolio = () => {
     const [projects] = useState([
         {
+            projectName: "Park Planner",
+            deployedLink: "",
+            githubLink: "https://github.com/PatrickLQuirk/park-planner",
+            imageFileName: "park-planner.png",
+            description: "Site for viewing activities at National Parks and saving them for a trip",
+            technologies: "Placeholder"
+        },
+        {
             projectName: "Social Network API",
             deployedLink: "",
             githubLink: "https://github.com/PatrickLQuirk/social-network-api",
-            imageFileName: "social-network-api.png"
+            imageFileName: "social-network-api.png",
+            description: "API for a social network web app where users post their thoughts",
+            technologies: "MongoDB, Node.js, Express.js"
         },
         {
             projectName: "eCommerce Back End",
             deployedLink: "",
             githubLink: "https://github.com/PatrickLQuirk/e-commerce_back_end",
-            imageFileName: "eCommerce-back-end.png"
+            imageFileName: "eCommerce-back-end.png",
+            description: "Back-end for an e-commerce website",
+            technologies: "SQL, Node.js, Express.js"
         },
         {
             projectName: "Tech Blog",
             deployedLink: "https://tranquil-meadow-55895.herokuapp.com/",
             githubLink: "https://github.com/PatrickLQuirk/tech-blog",
-            imageFileName: "tech-blog.png"
+            imageFileName: "tech-blog.png",
+            description: "CMS-style blog site where developers can publish blog posts",
+            technologies: "SQL, Node.js, Express.js, Handlebars.js"
         },
         {
             projectName: "Full-Stack Diet App",
             deployedLink: "https://afternoon-refuge-37114.herokuapp.com",
             githubLink: "https://github.com/kmelter/full-stack-diet-app",
-            imageFileName: "full-stack-diet.png"
+            imageFileName: "full-stack-diet.png",
+            description: "Diet application for viewing foods that can be eaten with certain diets.",
+            technologies: "SQL, Node.js, Express.js, Handlebars.js"
         },
         {
             projectName: "Employee Tracker",
             deployedLink: "",
             githubLink: "https://github.com/PatrickLQuirk/employee-tracker",
-            imageFileName: "employee-tracker.png"
-        },
-        {
-            projectName: "Weather Dashboard",
-            deployedLink: "https://patricklquirk.github.io/weather-dashboard/",
-            githubLink: "https://github.com/PatrickLQuirk/weather-dashboard",
-            imageFileName: "weather-dashboard.png"
+            imageFileName: "employee-tracker.png",
+            description: "Command-line application for managing an employee database",
+            technologies: "SQL, Node.js"
         }
     ]);
 

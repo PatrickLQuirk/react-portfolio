@@ -2,7 +2,7 @@ import { Card, CardMedia, CardContent, Link, Typography } from '@mui/material';
 import React from 'react';
 
 const Project = ({ currentProject }) => {
-    const { projectName, deployedLink, githubLink, imageFileName } = currentProject;
+    const { projectName, deployedLink, githubLink, imageFileName, description, technologies } = currentProject;
 
     return (
         <Card className='project' sx={{ marginLeft: "15px", marginRight: "15px", bgcolor: "#b2abbf", marginBottom:"25px"}}>
@@ -19,6 +19,8 @@ const Project = ({ currentProject }) => {
                     <br></br>
                 </>)
                 : <Typography>{projectName}</Typography>}
+                <Typography>{description}</Typography>
+                <Typography>Technologies used: {technologies}</Typography>
                 <Link href={githubLink}>GitHub</Link>
             </CardContent>
         </Card>
