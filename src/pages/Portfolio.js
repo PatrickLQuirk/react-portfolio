@@ -10,7 +10,7 @@ const Portfolio = () => {
             githubLink: "https://github.com/PatrickLQuirk/park-planner",
             imageFileName: "park-planner.png",
             description: "Site for viewing activities at National Parks and saving them for a trip",
-            technologies: "Placeholder"
+            technologies: "MongoDB, React, Node.js, Express.js"
         },
         {
             projectName: "Social Network API",
@@ -45,12 +45,12 @@ const Portfolio = () => {
             technologies: "SQL, Node.js, Express.js, Handlebars.js"
         },
         {
-            projectName: "Employee Tracker",
+            projectName: "Kanban Board",
             deployedLink: "",
-            githubLink: "https://github.com/PatrickLQuirk/employee-tracker",
-            imageFileName: "employee-tracker.png",
-            description: "Command-line application for managing an employee database",
-            technologies: "SQL, Node.js"
+            githubLink: "",
+            imageFileName: "tsb-kanban.png",
+            description: "Visual workflow application for students' schoolwork success",
+            technologies: "MongoDB, Node.js, Express.js, HTML, CSS"
         }
     ]);
 

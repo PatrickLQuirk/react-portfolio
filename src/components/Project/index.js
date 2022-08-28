@@ -21,7 +21,9 @@ const Project = ({ currentProject }) => {
                 : <Typography>{projectName}</Typography>}
                 <Typography>{description}</Typography>
                 <Typography>Technologies used: {technologies}</Typography>
-                <Link href={githubLink}>GitHub</Link>
+                {githubLink ? 
+                (<Link href={githubLink}>GitHub</Link>) 
+                : <Typography>(GitHub Repository is private)</Typography>}
             </CardContent>
         </Card>
     )
