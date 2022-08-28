@@ -6,7 +6,7 @@ const Portfolio = () => {
     const [projects] = useState([
         {
             projectName: "Park Planner",
-            deployedLink: "",
+            deployedLink: "https://limitless-caverns-87723.herokuapp.com/",
             githubLink: "https://github.com/PatrickLQuirk/park-planner",
             imageFileName: "park-planner.png",
             description: "Site for viewing activities at National Parks and saving them for a trip",
